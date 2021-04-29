@@ -8,3 +8,5 @@ fields:
     template_types:
       - message
       - diagram
+pages:
+  - content/marketing-pages/test_landing_page.md
