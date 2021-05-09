@@ -14,7 +14,7 @@ Basic TinaCMS starter based on [Next.js](https://nextjs.org) and [TinaCMS](https
 ## Table of contents
 
 - ❓ [What is this?](#what-is-this)
-- 🍴 [Fork and Clone](#fork-and-clone-this-repository)
+- 🍴 [Fork and Clone](#fork-this-repository)
 - ⬇️ [Install](#install)
 - 🌎 [Run the project locally](#run-the-project-locally)
 - 📝 [Edit content locally](#edit-content-locally)
@@ -33,9 +33,9 @@ Basic TinaCMS starter based on [Next.js](https://nextjs.org) and [TinaCMS](https
 
 This is a [TinaCMS](https://tina.io)-enabled Next.js app, so you can edit your content on a live page. In this project the Tina file-based CMS is used via GraphQL: it's powered by a schema that _you_ define. It not only serves content from Markdown files in your repository, but it also generates TinaCMS forms for you automatically ✨.
 
-## ⚠️ **Fork this repository** ⚠️
+## Fork this repository
 
-Start by **forking** the repositorty and then pull it down to your computer.
+ ⚠️⚠️ Start by **forking** the repositorty and then pull it down to your computer. ⚠️⚠️
 
 ## Install
 
@@ -98,7 +98,7 @@ you'll obviously want other editors and collaborators to be able to make changes
 ## Register your local application with Tina Cloud
 
 1. Visit [auth.tina.io](https://auth.tina.io/register), create an organization, and sign in. Make a note of your orgnization name.
-2. Create an app which connects to the GitHub repository you've just forked. Once your app is created, open settings and copy the client ID.
+2. Create a Tina Cloud app which connects to the GitHub repository you've just forked. Once your app is created, click on the app to get to the app settings and copy the client ID.
 
 ## Connect your local project with Tina Cloud
 
@@ -240,7 +240,7 @@ The top-level key in the schema is an array of _collections_, a `collection` inf
 
 ### `templates`
 
-Templates are responsible for defining the shape of your content, you'll see in the schema for this starter that we use `templates` for `sections` as well as `blocks`. If you look at the `landingPage` template, you'll notice that it has a set of `blocks`, which are also templates.
+Templates are responsible for defining the shape of your content, you'll see in the schema for this starter that we use `templates` for `collections` as well as `blocks`. If you look at the `landingPage` template, you'll notice that it has a set of `blocks`, which are also templates.
 
 ## Local development workflow tips
 
